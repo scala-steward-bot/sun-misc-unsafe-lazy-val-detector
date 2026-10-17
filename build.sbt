@@ -80,7 +80,7 @@ val core = projectMatrix
     name := "sun-misc-unsafe-lazy-val-detector",
     scriptedBufferLog := false,
     addSbtPlugin("com.github.sbt" % "sbt2-compat" % "0.2.0"),
-    libraryDependencies += "org.ow2.asm" % "asm" % "9.11",
+    libraryDependencies += "org.ow2.asm" % "asm" % "9.11.1",
     scriptedLaunchOpts ++= Seq[(String, String)](
       "plugin.version" -> version.value
     ).map { (k, v) =>
